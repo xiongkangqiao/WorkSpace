@@ -1,0 +1,92 @@
+.head a {
+  text-decoration: none;
+}
+
+.head a:link {
+  color: white;
+}
+
+.head a:visited {
+  color: white;
+}
+
+.head a:hover {
+  color: white;
+}
+
+img{
+  vertical-align:-3px;
+}
+.head {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.head .welcome {
+  height: 18px;
+  padding: 11px 60px;
+  background-color: #000B33;
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #DDDEE0;
+}
+
+.head .menu {
+  height: 60px;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+
+.head .menu div {
+  margin: 18px 40px;
+  padding-bottom: 10px;
+cursor: pointer;
+}
+
+.head .menu div:hover{
+  border-bottom-style: solid;
+}
+
+.head .menu .this{
+  border-bottom-style: solid;
+  font-weight: bold;
+}
+
+.right{
+  position: absolute;
+  top: 170px;
+  left: 170px;
+  z-index: 10;
+  color: white;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+}
+.right .info{
+  width: 296px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 15px 20px;
+  margin-bottom: 2px;
+}
+
+.quyu div{
+  margin-bottom: 5px;
+}
+
+a{
+  color: rgb(172, 182, 200);
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+}
